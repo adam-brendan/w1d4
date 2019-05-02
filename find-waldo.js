@@ -11,3 +11,12 @@ function actionWhenFound(position) {
 }
 
 findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound);
+
+// Another way of finding index
+// function findWaldo(arr, found) {
+//   arr.forEach(function(element, i){
+//     if (element === "Waldo") {
+//       found(i);   // execute callback
+//     }
+//   });
+// }
